@@ -76,7 +76,7 @@ const ChatbotWidget = () => {
       {open && (
         <div className="fixed top-6 right-6 w-120 h-[650px] bg-white rounded-xl shadow-2xl flex flex-col z-50 overflow-hidden">
           {/* Header */}
-          <div className="flex justify-between items-center p-4 bg-gradient-to-r from-pink-500 to-pink-600 text-white rounded-t-xl">
+          <div className="flex justify-between items-center p-4 bg-linear-to-r from-pink-500 to-pink-600 text-white rounded-t-xl">
             <span className="font-semibold">Chat Support</span>
             <button onClick={() => setOpen(false)} className="font-bold text-2xl hover:opacity-80 transition">×</button>
           </div>
